@@ -1,0 +1,22 @@
+{
+  "name": "vendor_name/php-core",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "HoangTu",
+      "email": "vohoangtu0409@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": ["src/functions.php" ],
+    "psr-4": {
+      "Tuezy\\": "src"
+    }
+  },
+  "require": {
+    "psr/container": "^1.0",
+    "illuminate/collections": "^8.83"
+  }
+}
