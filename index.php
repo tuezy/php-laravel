@@ -1,12 +1,15 @@
 <?php
 require "vendor/autoload.php";
+$_ENV['APP_BASE_PATH'] = __DIR__ . DIRECTORY_SEPARATOR . "vendor/laravel/laravel";
+use Illuminate\Contracts\Http\Kernel;
+use Illuminate\Http\Request;
 
-$container = \Illuminate\Container\Container::getInstance();
+$app = require  "bootstraps/app.php";
 
-$configs = new \Illuminate\Config\Repository([]);
-$container->instance("config", $configs);
-$container->bindIf("config", function(){
-    return container("config") ?? new \Illuminate\Config\Repository([]);
-});
 
-dd($container->make("config"));
+$kernel = $app->make(Kernel::class);
+$response = $kernel->handle(
+    $request = Request::capture()
+)->send();
+
+$kernel->terminate($request, $response);

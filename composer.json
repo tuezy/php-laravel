@@ -1,9 +1,10 @@
 {
     "name": "tuezy/php-core",
     "autoload": {
-        "files": ["bootstraps/functions.php", "bootstraps/gateways.php"],
+        "files": ["bootstraps/functions.php"],
         "psr-4": {
-            "Tuezy\\": "src/"
+            "Tuezy\\": "src/",
+            "App\\": "app/"
         }
     },
     "authors": [
@@ -13,8 +14,6 @@
         }
     ],
     "require": {
-        "symfony/var-dumper": "^5.4",
-        "illuminate/container": "^8.83",
-        "illuminate/config": "^8.83"
+        "laravel/laravel": "*"
     }
 }
