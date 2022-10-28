@@ -1,23 +1,20 @@
 #!/usr/bin/env php
 <?php
+const ROOT = __DIR__ . DIRECTORY_SEPARATOR;
+const FRAMEWORK = ROOT . "framework" . DIRECTORY_SEPARATOR;
+const FRAMEWORK_DIR = FRAMEWORK . "laravel/8.x/";
+require FRAMEWORK_DIR . "vendor/autoload.php";
+
+use Illuminate\Contracts\Http\Kernel;
+use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
-|
-| Composer provides a convenient, automatically generated class loader
-| for our application. We just need to utilize it! We'll require it
-| into the script here so that we do not have to worry about the
-| loading of any of our classes manually. It's great to relax.
-|
-*/
+$app = require_once FRAMEWORK_DIR.'/bootstrap/app.php';
 
-require __DIR__.'/vendor/autoload.php';
-
-$app = require "bootstraps/app.php";
+$app->useEnvironmentPath(ROOT);
+$app->useStoragePath(ROOT . "storage");
+$app->register(\App\Modules::class);
 /*
 |--------------------------------------------------------------------------
 | Run The Artisan Application
