@@ -9,6 +9,10 @@ class ModuleProvider extends ServiceProvider {
 
     public function boot()
     {
+        $configs = require MODULE_CONFIG_PATH;
+        foreach($configs['modules'] as $module){
+            $this->app->register($module);
+        }
 
     }
 }

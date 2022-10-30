@@ -1,30 +1,6 @@
 #!/usr/bin/env php
 <?php
-const ROOT = __DIR__ . DIRECTORY_SEPARATOR;
-const FRAMEWORK = ROOT . "framework" . DIRECTORY_SEPARATOR;
-const FRAMEWORK_DIR = FRAMEWORK . "laravel/8.x/";
-require FRAMEWORK_DIR . "vendor/autoload.php";
-
-use Illuminate\Contracts\Http\Kernel;
-use Illuminate\Http\Request;
-
-define('LARAVEL_START', microtime(true));
-
-$app = require_once FRAMEWORK_DIR.'/bootstrap/app.php';
-
-$app->useEnvironmentPath(ROOT);
-$app->useStoragePath(ROOT . "storage");
-$app->register(\App\Modules::class);
-/*
-|--------------------------------------------------------------------------
-| Run The Artisan Application
-|--------------------------------------------------------------------------
-|
-| When we run the console application, the current CLI command will be
-| executed in this console and the response sent back to a terminal
-| or another output device for the developers. Here goes nothing!
-|
-*/
+$app = require 'init.php';
 
 $kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
 
