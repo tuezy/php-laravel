@@ -1,5 +1,6 @@
 {
     "require": {
-        "laravel/laravel": "*"
+        "laravel/laravel": "*",
+        "fruitcake/laravel-cors": "*"
     }
 }

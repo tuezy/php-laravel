@@ -914,3 +914,111 @@
 #30 C:\\Users\\vohoa\\Desktop\\Code\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\vohoa\\\\...')
 #31 {main}
 "} 
+[2022-10-31 03:08:39] local.ERROR: Target class [Illuminate\Http\Middleware\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\HandleCors] does not exist. at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(9): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class Illuminate\\Http\\Middleware\\HandleCors does not exist at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(9): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 {main}
+"} 
+[2022-10-31 03:08:39] local.ERROR: Target class [Illuminate\Http\Middleware\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\HandleCors] does not exist. at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(12): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class Illuminate\\Http\\Middleware\\HandleCors does not exist at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(12): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
+[2022-10-31 03:09:00] local.ERROR: Target class [Illuminate\Http\Middleware\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\HandleCors] does not exist. at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(9): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class Illuminate\\Http\\Middleware\\HandleCors does not exist at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(156): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(167): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(103): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(142): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(9): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 {main}
+"} 
+[2022-10-31 03:09:00] local.ERROR: Target class [Illuminate\Http\Middleware\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Illuminate\\Http\\Middleware\\HandleCors] does not exist. at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:879)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(12): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class Illuminate\\Http\\Middleware\\HandleCors does not exist at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:877)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(877): ReflectionClass->__construct('Illuminate\\\\Http...')
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(758): Illuminate\\Container\\Container->build('Illuminate\\\\Http...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(851): Illuminate\\Container\\Container->resolve('Illuminate\\\\Http...', Array, true)
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(694): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Http...', Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(836): Illuminate\\Container\\Container->make('Illuminate\\\\Http...', Array)
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(206): Illuminate\\Foundation\\Application->make('Illuminate\\\\Http...')
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(180): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(12): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 {main}
+"} 
