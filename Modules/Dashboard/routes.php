@@ -1,7 +1,10 @@
 <?php
 use \Illuminate\Support\Facades\Route;
-
-Route::group(['prefix'=>"dashboard", 'as' => 'dashboard.'], function($route){
-    $route->get("/" , \Modules\Dashboard\Controllers\DashboardController::class. "@index")->name('index');
+Route::group([
+                 'prefix'=>"dashboard",
+                 'namespace' => '\Modules\Dashboard\Controllers',
+                 'as' => 'dashboard.',
+                 'middlewares' => ['web']
+             ], function($route){
+    $route->get("/" , "DashboardController@index")->name('index');
 });
-

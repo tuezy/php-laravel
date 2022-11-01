@@ -21,11 +21,6 @@ class EE extends Application{
         return PUBLIC_PATH;
     }
 
-    public function getPublicPath()
-    {
-        return PUBLIC_PATH;
-    }
-
 //
 //    protected function bootProvider(ServiceProvider $provider)
 //    {
