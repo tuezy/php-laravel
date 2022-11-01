@@ -1,8 +1,10 @@
 <?php
 namespace Modules\Dashboard\Providers;
 
+use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
+use Modules\Dashboard\Components\MenuDashboard;
 
 class DashboardServiceProvider extends ServiceProvider {
 
@@ -13,6 +15,7 @@ class DashboardServiceProvider extends ServiceProvider {
         $this->loadViewsFrom(dirname(__DIR__) . DIRECTORY_SEPARATOR. "Views", 'dashboard');
     }
     public function boot(){
+        Blade::component('menu', MenuDashboard::class);
         View::share('menuItems', config("dashboard.menu"));
     }
 }

@@ -1,3 +1,5 @@
-@foreach($menuItems as $key => $menu)
-    <li>{{ $menu['title'] }}</li>
+<ul>
+@foreach($items as $key => $menu)
+    <li class=" {{ $active == $menu["order"] ? 'active' : '' }}" >{{ $menu['title'] }}</li>
 @endforeach
+</ul>

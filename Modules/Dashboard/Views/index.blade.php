@@ -9,9 +9,7 @@
     <link rel="stylesheet" href="{{ asset('admin.css') }}">
 </head>
 <body>
-@include("dashboard::layouts.menu")
+<x-menu :items="$menuItems" />
 <h1>Dashboard</h1>
-{{ __("auth.fail") }}
-{{ __("Settings::menu.title") }}
 </body>
 </html>

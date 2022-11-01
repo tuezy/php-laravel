@@ -9,11 +9,18 @@
     <link rel="stylesheet" href="<?php echo e(asset('admin.css')); ?>">
 </head>
 <body>
-<?php echo $__env->make("dashboard::layouts.menu", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php if (isset($component)) { $__componentOriginalfb81f0713d15bafbc2dd5e2a943dca710d2e5a09 = $component; } ?>
+<?php $component = $__env->getContainer()->make(Modules\Dashboard\Components\MenuDashboard::class, ['items' => $menuItems]); ?>
+<?php $component->withName('menu'); ?>
+<?php if ($component->shouldRender()): ?>
+<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
+<?php $component->withAttributes([]); ?>
+<?php echo $__env->renderComponent(); ?>
+<?php endif; ?>
+<?php if (isset($__componentOriginalfb81f0713d15bafbc2dd5e2a943dca710d2e5a09)): ?>
+<?php $component = $__componentOriginalfb81f0713d15bafbc2dd5e2a943dca710d2e5a09; ?>
+<?php unset($__componentOriginalfb81f0713d15bafbc2dd5e2a943dca710d2e5a09); ?>
+<?php endif; ?>
 <h1>Dashboard</h1>
-<?php echo e(__("auth.fail")); ?>
-
-<?php echo e(__("Settings::menu.title")); ?>
-
 </body>
 </html><?php /**PATH C:\Users\Giang Nguyen\Desktop\github\php-core\Modules\Dashboard\Views/index.blade.php ENDPATH**/ ?>
