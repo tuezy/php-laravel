@@ -11,7 +11,8 @@ class ModuleProvider extends ServiceProvider {
     {
         $configs = require MODULE_CONFIG_PATH;
         foreach($configs['modules'] as $module){
-            $this->app->register($module);
+            if(class_exists($module))
+                $this->app->register($module);
         }
 
     }

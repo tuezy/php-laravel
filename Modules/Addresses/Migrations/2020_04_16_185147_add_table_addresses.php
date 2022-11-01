@@ -16,15 +16,13 @@ class AddTableAddresses extends Migration
     public function up()
     {
         try {
-            // transaction is important to prevent loosing data on failure
-            DB::beginTransaction();
 
-            Schema::create('addresses', function (Blueprint $table) {
+            Schema::create('address', function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('address_type');
-                $table->unsignedInteger('customer_id')->nullable()->comment('null if guest checkout');
-                $table->unsignedInteger('cart_id')->nullable()->comment('only for cart_addresses');
-                $table->unsignedInteger('order_id')->nullable()->comment('only for order_addresses');
+//                $table->unsignedInteger('customer_id')->nullable()->comment('null if guest checkout');
+//                $table->unsignedInteger('cart_id')->nullable()->comment('only for cart_addresses');
+//                $table->unsignedInteger('order_id')->nullable()->comment('only for order_addresses');
 
                 $table->string('first_name');
                 $table->string('last_name');
@@ -47,16 +45,11 @@ class AddTableAddresses extends Migration
 
                 $table->timestamps();
 
-                $table->foreign(['customer_id'])->references('id')->on('customers')->onDelete('cascade');
-                $table->foreign(['cart_id'])->references('id')->on('cart')->onDelete('cascade');
-                $table->foreign(['order_id'])->references('id')->on('orders')->onDelete('cascade');
+//                $table->foreign(['customer_id'])->references('id')->on('customers')->onDelete('cascade');
+//                $table->foreign(['cart_id'])->references('id')->on('cart')->onDelete('cascade');
+//                $table->foreign(['order_id'])->references('id')->on('orders')->onDelete('cascade');
             });
 
-            Schema::disableForeignKeyConstraints();
-
-            Schema::enableForeignKeyConstraints();
-
-            DB::commit();
         } catch (Exception $e) {
             DB::rollBack();
             throw $e;
