@@ -11,10 +11,10 @@
 |
 */
 
-$app = new \Tuezy\EE(
-    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
-);
-
+//$app = new \Tuezy\EE(
+//    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
+//);
+$app = new \Tuezy\EE(RESOURCES);
 
 /*
 |--------------------------------------------------------------------------

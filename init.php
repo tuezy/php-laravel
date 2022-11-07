@@ -21,7 +21,7 @@ require ROOT . "autoload.php";
 
 define('LARAVEL_START', microtime(true));
 
-$_ENV['APP_BASE_PATH'] = FRAMEWORK_DIR;
+//$_ENV['APP_BASE_PATH'] = FRAMEWORK_DIR;
 
 $app = require_once RESOURCES. '/bootstrap/app.php';
 

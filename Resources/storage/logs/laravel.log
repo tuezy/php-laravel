@@ -220,3 +220,61 @@
 #45 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\index.php(9): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #46 {main}
 "} 
+[2022-11-02 09:35:00] local.ERROR: file_get_contents(C:\Users\Giang Nguyen\Desktop\github\php-core\Resources\composer.json): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\Resources\\composer.json): failed to open stream: No such file or directory at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1399)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\Users\\\\Giang ...', 1399, Array)
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1399): file_get_contents('C:\\\\Users\\\\Giang ...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(29): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): Tuezy\\Kernels\\AppConsoleKernel->commands()
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\artisan(9): Tuezy\\Kernels\\AppConsoleKernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2022-11-02 09:35:24] local.ERROR: file_get_contents(C:\Users\Giang Nguyen\Desktop\github\php-core\Resources\composer.json): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\Resources\\composer.json): failed to open stream: No such file or directory at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1399)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\Users\\\\Giang ...', 1399, Array)
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1399): file_get_contents('C:\\\\Users\\\\Giang ...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(29): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): Tuezy\\Kernels\\AppConsoleKernel->commands()
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\artisan(9): Tuezy\\Kernels\\AppConsoleKernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2022-11-02 09:36:05] local.ERROR: file_get_contents(C:\Users\Giang Nguyen\Desktop\github\php-core\Resources\composer.json): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\Resources\\composer.json): failed to open stream: No such file or directory at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1399)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\Users\\\\Giang ...', 1399, Array)
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1399): file_get_contents('C:\\\\Users\\\\Giang ...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(29): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): Tuezy\\Kernels\\AppConsoleKernel->commands()
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\artisan(9): Tuezy\\Kernels\\AppConsoleKernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2022-11-02 09:36:57] local.ERROR: file_get_contents(C:\Users\Giang Nguyen\Desktop\github\php-core\Resources\composer.json): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\Resources\\composer.json): failed to open stream: No such file or directory at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1399)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\Users\\\\Giang ...', 1399, Array)
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1399): file_get_contents('C:\\\\Users\\\\Giang ...')
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(29): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): Tuezy\\Kernels\\AppConsoleKernel->commands()
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#6 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\artisan(9): Tuezy\\Kernels\\AppConsoleKernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2022-11-02 09:38:08] local.ERROR: Unable to detect application namespace. {"exception":"[object] (RuntimeException(code: 0): Unable to detect application namespace. at C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php:1409)
+[stacktrace]
+#0 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(220): Illuminate\\Foundation\\Application->getNamespace()
+#1 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(29): Illuminate\\Foundation\\Console\\Kernel->load(Array)
+#2 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(316): Tuezy\\Kernels\\AppConsoleKernel->commands()
+#3 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#4 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\src\\Kernels\\AppConsoleKernel.php(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\Users\\Giang Nguyen\\Desktop\\github\\php-core\\artisan(9): Tuezy\\Kernels\\AppConsoleKernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 

@@ -21,6 +21,10 @@ class EE extends Application{
         return PUBLIC_PATH;
     }
 
+    public function getNamespace()
+    {
+        return "App\\";
+    }
 //
 //    protected function bootProvider(ServiceProvider $provider)
 //    {
