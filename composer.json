@@ -1,6 +1,11 @@
 {
     "require": {
-        "laravel/laravel": "*",
-        "fruitcake/laravel-cors": "*"
+        "laravel/framework": "^10.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tuezy\\": "",
+            "Laravel\\": ".laravel"
+        }
     }
 }
